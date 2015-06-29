@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Location LessonTwo</string>
+
+    <string name="latitude_label_textview">Latitude</string>
+    <string name="longitude_label_textview">Longitude</string>
+    <string name="action_interval">Interval</string>
+</resources>

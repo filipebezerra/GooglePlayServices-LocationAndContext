@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:support="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+    <item
+        android:id="@+id/action_interval"
+        android:title="@string/action_interval"
+        android:icon="@drawable/ic_timelapse_white_24dp"
+        support:showAsAction="ifRoom"
+        />
+</menu>

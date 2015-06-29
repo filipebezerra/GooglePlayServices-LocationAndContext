@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:support="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        support:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+    <TextView
+        android:id="@+id/latitude_label_textview"
+        android:text="@string/latitude_label_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/view_padding_left"
+        android:paddingRight="@dimen/view_padding_right"
+        android:paddingTop="@dimen/view_padding_top"
+        android:paddingBottom="@dimen/view_padding_bottom"
+        android:layout_below="@id/toolbar"
+        android:layout_alignBaseline="@+id/latitude_value_textview"
+        android:textColor="?attr/colorPrimaryDark"
+        />
+
+    <TextView
+        android:id="@+id/latitude_value_textview"
+        tools:text="47.6703722"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/view_padding_left"
+        android:paddingRight="@dimen/view_padding_right"
+        android:paddingTop="@dimen/view_padding_top"
+        android:paddingBottom="@dimen/view_padding_bottom"
+        android:layout_below="@id/toolbar"
+        android:layout_toRightOf="@+id/latitude_label_textview"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="?attr/colorAccent"
+        />
+
+    <TextView
+        android:id="@+id/longitude_label_textview"
+        android:text="@string/longitude_label_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/view_padding_left"
+        android:paddingRight="@dimen/view_padding_right"
+        android:paddingTop="@dimen/view_padding_top"
+        android:paddingBottom="@dimen/view_padding_bottom"
+        android:layout_below="@+id/latitude_label_textview"
+        android:layout_alignBaseline="@+id/longitude_value_textview"
+        android:textColor="?attr/colorPrimaryDark"
+        />
+
+    <TextView
+        android:id="@+id/longitude_value_textview"
+        tools:text="-122.1970554"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/view_padding_left"
+        android:paddingRight="@dimen/view_padding_right"
+        android:paddingTop="@dimen/view_padding_top"
+        android:paddingBottom="@dimen/view_padding_bottom"
+        android:layout_below="@+id/latitude_value_textview"
+        android:layout_toRightOf="@+id/longitude_label_textview"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="?attr/colorAccent"
+        />
+
+</RelativeLayout>

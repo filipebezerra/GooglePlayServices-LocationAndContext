@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="request_interval_list">
+        <item>1 second</item>
+        <item>3 second</item>
+        <item>5 second</item>
+        <item>10 second</item>
+    </string-array>
+</resources>

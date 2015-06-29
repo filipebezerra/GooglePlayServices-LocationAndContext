@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="view_padding_top">16dp</dimen>
+    <dimen name="view_padding_bottom">8dp</dimen>
+    <dimen name="view_padding_left">16dp</dimen>
+    <dimen name="view_padding_right">8dp</dimen>
+</resources>
