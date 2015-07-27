@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.github.filipebezerra.toys.playservices.locationlessonone"
+        applicationId "com.github.filipebezerra.toys.playservices.mylocation"
         minSdkVersion 10
         targetSdkVersion 22
         versionCode 2
