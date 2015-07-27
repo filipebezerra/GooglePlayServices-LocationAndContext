@@ -1,9 +1,9 @@
-package gms.demos.android.locationlessonone;
+package com.github.filipebezerra.toys.playservices.mylocation.application;
 
 import android.app.Application;
 import timber.log.Timber;
 
-public class App extends Application {
+public class LessonOneApplication extends Application {
 
     @Override
     public void onCreate() {
