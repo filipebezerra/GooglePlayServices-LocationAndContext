@@ -5,5 +5,6 @@
         <item>3 second</item>
         <item>5 second</item>
         <item>10 second</item>
+        <item>Off</item>
     </string-array>
 </resources>
