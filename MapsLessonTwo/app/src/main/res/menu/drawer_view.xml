@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        >
+        <item android:title="Go to locations">
+            <menu>
+                <item
+                    android:id="@id/nav_current_location"
+                    android:title="Current location"
+                    android:checked="true"
+                    />
+                <item
+                    android:id="@id/nav_seattle"
+                    android:title="Seattle"
+                    />
+                <item
+                    android:id="@id/nav_new_york"
+                    android:title="New York"
+                    />
+                <item
+                    android:id="@id/nav_dublin"
+                    android:title="Dublin"
+                    />
+            </menu>
+        </item>
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        >
+        <item android:title="Camera movement">
+            <menu>
+                <item
+                    android:id="@id/nav_move_camera"
+                    android:title="Just go"
+                    />
+                <item
+                    android:id="@id/nav_animate_camera"
+                    android:title="Fly to"
+                    android:checked="true"
+                    />
+            </menu>
+        </item>
+    </group>
+</menu>

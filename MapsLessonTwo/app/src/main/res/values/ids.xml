@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="map" type="id" />
+    <item name="main_container" type="id" />
+    <item name="fab" type="id" />
+    <item name="drawer_layout" type="id" />
+    <item name="nav_current_location" type="id" />
+    <item name="nav_seattle" type="id" />
+    <item name="nav_new_york" type="id" />
+    <item name="nav_dublin" type="id" />
+    <item name="nav_move_camera" type="id" />
+    <item name="nav_animate_camera" type="id" />
+</resources>
