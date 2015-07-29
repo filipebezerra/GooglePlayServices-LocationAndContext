@@ -12,6 +12,13 @@ Features
 * Showing maps with animated camera update
 * Showing maps with custom markers, polygons and circles
 * Showing street view panorama maps
+* Immersive mode supported in ICS, Jelly Bean and KitKat
+* In some cases using the new material design components such as:
+  * [CoordinatorLayout][8]
+  * [AppBarLayout][9]
+  * [FloatingActionButton][10]
+  * [NavigationView][11]
+  * [Toolbar][12]
 
 Libraries
 ---------
@@ -61,3 +68,9 @@ License
 [5]: https://github.com/square/otto
 [6]: http://developer.android.com/tools/support-library/index.html
 [7]: http://android-developers.blogspot.com.br/2015/05/android-design-support-library.html
+[8]: https://developer.android.com/reference/android/support/design/widget/CoordinatorLayout.html
+[9]: https://developer.android.com/reference/android/support/design/widget/AppBarLayout.html
+[10]: https://developer.android.com/reference/android/support/design/widget/FloatingActionButton.html
+[11]: https://developer.android.com/reference/android/support/design/widget/NavigationView.html
+[12]: https://developer.android.com/reference/android/widget/Toolbar.html
+
