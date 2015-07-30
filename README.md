@@ -12,7 +12,7 @@ Features
 * Showing maps with animated camera update
 * Showing maps with custom markers, polygons and circles
 * Showing street view panorama maps
-* Immersive mode supported in ICS, Jelly Bean and KitKat
+* Immersive mode supported across all Android version
 * In some cases using the new material design components such as:
   * [CoordinatorLayout][8]
   * [AppBarLayout][9]
